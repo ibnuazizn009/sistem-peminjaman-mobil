@@ -38,4 +38,4 @@ Route::get('/list-peminjaman', [PeminjamanController::class, 'peminjaman']);
 
 // Pengembalian
 Route::get('/pengembalian-mobil', [PengembalianController::class, 'index']);
-Route::get('/pengembalian-mobil/add', [PengembalianController::class, 'create']);
+Route::post('/pengembalian-mobil/add', [PengembalianController::class, 'create']);

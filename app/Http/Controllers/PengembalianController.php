@@ -63,7 +63,6 @@ class PengembalianController extends Controller
             $date_mulai[] = $dt->tgl_mulai;
         }
         
-        dd($diff);
         // $diff = now()->diffInDays();
         // dd($datas[0]->nama_mobil);
 
