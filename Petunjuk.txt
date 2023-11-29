@@ -2,6 +2,8 @@ start
 - clone repository
 - buka folder di terminal/cmd
 - run composer install
+- ubah .env koneksi database
+- run php artisan migrate
 - run php artisan serve
 
 endpoints/url
